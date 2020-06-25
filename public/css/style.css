@@ -1,0 +1,107 @@
+  
+  body
+  {
+    background-color: rgb(92, 79, 79);
+  } 
+  .Logo
+  {
+    position: absolute;
+    width: 93px;
+    height: 99px;
+    right: 10px;
+    top: 80px;
+  }
+  
+  .myFont
+  {
+    font-family: Rochester;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 86px;
+    text-align: center;
+  
+    color: #e6e3d7;
+  }
+  
+  
+  .myFont2
+  {
+    font-family: Rochester;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 86px;
+    text-align: left;
+  
+    color: #7e806f;
+  }
+  
+  .myFont3
+  {
+    font-family: Rochester;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 86px;
+    text-align: center;
+  
+    color: #eaebdd;
+  }
+  
+  
+  .radio-wrapper
+  {
+    display: inline-block;
+  }
+  
+  .radio-wrapper *
+  {
+    float: right;
+  
+  }
+  
+  .radio-wrapper > input
+  {
+    display: none;
+  }
+  
+  label
+  {
+    font-size: 30px;
+  }
+  
+  input:checked~label
+  {
+    color: #e4f802
+  }
+  
+  /* Media Queries*/
+  .custom-class
+  {
+    display: none;
+  }
+  
+  
+  .myheader
+  {
+    background-color: rgb(173, 127, 53);
+  }
+  
+  img
+  {
+    width: 200px;
+  }
+  
+  h1
+  {
+    font-family: arial;
+    font-size: 60px;
+  }
+  
+  
+  @media only screen and (max-width: 700px) {
+    body {
+      background-color: rgb(100, 40, 40);
+    }
+  }

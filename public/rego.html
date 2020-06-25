@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" -->
+      <!-- integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <!-- <link rel="stylesheet" href="styles/style.css"> -->
+    <link rel="script" href="scripts/script.js">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+      <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+      <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <title>Register</title>
+  </head>
+
+<body>
+  <div class="container-fluid float-right">
+    <!--Logo-->
+
+    <img src="images/CaptureLogoCoffeeCode.PNG" class="Logo" alt="Logo on display">
+  </div>
+  <!--END Logo-->
+
+
+
+
+  <div class="myFont">
+    <header>
+      <h1> Code Cafe</h1>
+    </header>
+  </div>
+
+
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark ">
+    <!-- Brand -->
+
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-linkbtn btn-warning btn-lg btn-block" href="rego.html">Register</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="forum.html">Forum</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="feedbackRating.html">Feedback</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="approvedMessages.html">Approved messages</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <br>
+  <!--END Navbar-->
+
+  <section>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-8 col-xl-6">
+          <form id="contactform" onsubmit="formValidation()">
+            <!-- from here to here -->
+            <div class="form-group myFont3">
+              <label>Name</label>
+              <input type="text" id="name" class="form-control" placeholder="Name">
+            </div>
+            <div class="row">
+              <div class="col text-center myFont3">
+                <h1>Register</h1>
+                <p class="text-h3">Register here. </p>
+              </div>
+            </div>
+            <div class="row align-items-center">
+              <div class="col mt-4">
+                <input type="text" class="form-control" placeholder="Company Name">
+              </div>
+            </div>
+            <div class="row align-items-center mt-4">
+              <div class="col">
+                <input type="email" class="form-control" placeholder="Email">
+              </div>
+            </div>
+            <div class="row align-items-center mt-4">
+              <div class="col">
+                <input type="password" class="form-control" placeholder="Password">
+              </div>
+              <div class="col">
+                <input type="password" class="form-control" placeholder="Confirm Password">
+              </div>
+            </div>
+            <div class="row justify-content-start mt-4">
+              <div class="col">
+                <div class="form-check myFont3">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input myFont3">
+                    I Read and Accept <a href="termsAndConditons.html">Terms and Conditions</a> 
+                  </label>
+                </div>
+                 <!-- goes to placeholder page which will be replaced by PHP -->
+      <a href="placeHolderEditFile.html" type="submit" class="btn btn-warning">Submit</a>
+                <!-- <button onclick="myFunction()"class="btn btn-warning mt-4"> Submit </button>  -->
+                
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="page-footer font-small mdb-color lighten-3 pt-4">
+
+    <!-- Footer Elements -->
+    <div class="container">
+
+      <!--Grid row-->
+      <div class="row">
+
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-12 mb-4">
+
+          <!--Image-->
+          <div class="view overlay z-depth-1-half">
+            <img src="images/woodenHouseInternal.jpg" class="img-fluid" alt="">
+            <a href="">
+              <div class="mask rgba-white-light"></div>
+            </a>
+          </div>
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-6 mb-4">
+
+          <!--Image-->
+          <div class="view overlay z-depth-1-half">
+            <img src="images/WoodenFloors.jpg" class="img-fluid" alt="">
+            <a href="">
+              <div class="mask rgba-white-light"></div>
+            </a>
+          </div>
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-6 mb-4">
+
+          <!--Image-->
+          <div class="view overlay z-depth-1-half">
+            <img src="images/WoodenLights.jpg" class="img-fluid" alt="">
+            <a href="">
+              <div class="mask rgba-white-light"></div>
+            </a>
+          </div>
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-12 mb-4">
+
+          <!--Image-->
+          <div class="view overlay z-depth-1-half">
+            <img src="images/CoffeeCup.jpg" class="img-fluid" alt="">
+            <a href="">
+              <div class="mask rgba-white-light"></div>
+            </a>
+          </div>
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-6 mb-4">
+
+          <!--Image-->
+          <div class="view overlay z-depth-1-half">
+            <img src="images/CaptureC.PNG" class="img-fluid" alt="">
+            <a href="">
+              <div class="mask rgba-white-light"></div>
+            </a>
+          </div>
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-6 mb-4">
+
+          <!--Image-->
+          <div class="view overlay z-depth-1-half">
+            <img src="images/CaptureLogoCoffeeCode.PNG" class="img-fluid" alt="">
+            <a href="">
+              <div class="mask rgba-white-light"></div>
+            </a>
+          </div>
+
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+    </div>
+    <!-- Footer Elements -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3 myFont3">© 2019 Copyright
+      <a href="index.html">Back to Home page</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer End -->
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
