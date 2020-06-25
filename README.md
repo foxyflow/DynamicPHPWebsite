@@ -1,2 +1,2 @@
 # DynamicPHPWebsite
-Follow documentation. This website is to show understanding of MVC
+Follow Documentation in Public folder. This website is to show understanding of MVC
